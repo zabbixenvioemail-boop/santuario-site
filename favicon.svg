@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e5c76b"/>
+      <stop offset="100%" stop-color="#7a5d12"/>
+    </linearGradient>
+    <radialGradient id="e" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#ffb066"/>
+      <stop offset="50%" stop-color="#ff4a1c"/>
+      <stop offset="100%" stop-color="#a8280a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" fill="#05060a"/>
+  <!-- arco gótico -->
+  <path d="M16 56 L16 30 Q16 12 32 8 Q48 12 48 30 L48 56"
+        fill="none" stroke="url(#g)" stroke-width="2"/>
+  <path d="M22 56 L22 32 Q22 18 32 15 Q42 18 42 32 L42 56"
+        fill="none" stroke="rgba(201,162,39,0.4)" stroke-width="1"/>
+  <!-- brilho de brasa -->
+  <ellipse cx="32" cy="48" rx="9" ry="11" fill="url(#e)"/>
+  <!-- runa central -->
+  <path d="M32 26 L32 44 M32 26 L38 33 M32 26 L26 33"
+        stroke="#ff7a3c" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <circle cx="32" cy="44" r="1.6" fill="#ffd9b0"/>
+</svg>
