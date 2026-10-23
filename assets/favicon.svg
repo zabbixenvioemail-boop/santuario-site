@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#0a0a0b"/>
+  <!-- emblema: triângulo/portal de fogo -->
+  <path d="M32 10 L56 54 L8 54 Z" fill="none" stroke="#ff4d00" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M32 24 L42 42 L22 42 Z" fill="rgba(255,77,0,0.25)"/>
+  <path d="M32 24 L32 42" stroke="#d4a017" stroke-width="2"/>
+  <path d="M27 34 L37 34" stroke="#d4a017" stroke-width="2"/>
+  <circle cx="32" cy="46" r="3" fill="#ff4d00"/>
+</svg>
