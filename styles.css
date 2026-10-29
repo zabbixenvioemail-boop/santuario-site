@@ -441,7 +441,14 @@ body.inner .page-bg::after{background:linear-gradient(180deg,rgba(7,5,5,.2) 0%,r
   .burger svg{width:20px;height:20px;stroke:#d9beb2;fill:none;stroke-width:1.8}
   .hero.wrap{padding-left:20px;padding-right:20px}
   .hero-grid{grid-template-columns:1fr;min-height:0;gap:0}
-  .hero-left{padding-top:26px;max-width:560px}
+  .hero-left{padding-top:22px;max-width:560px}
+  .kicker{position:static;transform:none;font-size:15px;letter-spacing:.24em;margin:0 0 10px 2px}
+  .hero-title{margin:0}
+  .hero-title img{width:clamp(240px,68vw,420px);max-width:100%}
+  .hero-sub{margin:10px 0 0 2px;font-size:10.5px;letter-spacing:.22em;line-height:1.9}
+  .hero-lead{margin:16px 0 0;padding-left:0;font-size:13.5px;line-height:1.6;letter-spacing:.08em}
+  .badges{margin:20px 0 0;padding-left:0;gap:16px 18px}
+  .cta{margin:22px 0 0;padding:19px 26px;font-size:13.5px}
   .server-panel{grid-column:1;max-width:560px;width:100%;margin:26px auto 0}
   .carousel-bar{position:static;transform:none;width:min(430px,86%);margin:22px auto 0}
   .carousel{margin-top:26px}
@@ -459,9 +466,9 @@ body.inner .page-bg::after{background:linear-gradient(180deg,rgba(7,5,5,.2) 0%,r
   .connect-btn span{display:none}
   .connect-btn svg{width:20px;height:20px}
   .wrap{padding:0 16px}
-  .hero-title img{width:clamp(250px,74vw,430px)}
+  .hero-title img{width:clamp(240px,70vw,360px)}
   .hero-left{min-width:0}
-  .hero-lead{font-size:12.5px;letter-spacing:.08em;max-width:100%}
+  .hero-lead{font-size:12.5px;letter-spacing:.06em;max-width:100%}
   .badges{gap:14px}
   .cta{width:100%;min-width:0;justify-content:space-between}
   .carousel{padding:0 6px;margin-top:26px}
